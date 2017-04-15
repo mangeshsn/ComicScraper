@@ -11,7 +11,7 @@ pip install Scrapy
 # Usage
 
 ```sh
-cd commit_strip_extractor\commit_strip_extractor\spiders
+cd commit_strip_extractor\commit_strip_extractor\
 scrapy crawl extract_all
 ```
 ComicStrip's will be downloaded in spiders/images
