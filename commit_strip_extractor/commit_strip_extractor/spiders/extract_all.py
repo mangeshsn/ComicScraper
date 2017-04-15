@@ -24,9 +24,9 @@ class CommitStrip(scrapy.Spider):
 		for j in data1:
 			
 			file_name = j.split('/')[7]
-			print file_name
+			#print file_name
 			testfile = urllib.URLopener()
-			print j
+			#print j
 			fullfilename = os.path.join('images/', file_name)
 			testfile.retrieve(j.encode('utf-8'), fullfilename)
 		
