@@ -14,4 +14,16 @@ pip install Scrapy
 cd commit_strip_extractor\commit_strip_extractor\spiders
 scrapy crawl extract_all
 ```
+
+# XKCD download
+
+# Usage
+
+```sh
+cd commit_strip_extractor\commit_strip_extractor\spiders
+scrapy crawl xkcd
+```
+
+
 ComicStrip's will be downloaded in spiders/images
+xkcd's will be downloaded in spiders/xkcd_images
